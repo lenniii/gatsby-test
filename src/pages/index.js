@@ -51,12 +51,7 @@ const IndexPage = () => {
     [cards, t, deviceQuery]
   )
 
-  return (
-    <Layout>
-      <h1>{t("select")}</h1>
-      {renderCards}
-    </Layout>
-  )
+  return <Layout>{renderCards}</Layout>
 }
 export const query = graphql`
   query ($language: String!) {
