@@ -5,6 +5,7 @@ import postCheckoutInfos from "../api/postCheckoutInfos"
 import CheckoutStepper, {
   Button,
   Label,
+  Spacer,
   Title,
 } from "../components/CheckoutStepper"
 import Input from "../components/Input"
@@ -107,6 +108,7 @@ const Thankyou = ({ location: { search } }) => {
           <Title>{t(title)}</Title>
           <Label for={label}>{t(label)}</Label>
           {component}
+          <Spacer height={15} />
           <Button type="submit">{isLastStep ? t("submit") : t("next")}</Button>
         </CheckoutStepper>
       </form>

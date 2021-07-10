@@ -35,7 +35,7 @@ const IndexPage = () => {
           <Card key={card.id}>
             <UpperCard>
               <Name>{card.name}</Name>
-              <Price>{card.price}</Price>
+              <Price>{card.price}€</Price>
             </UpperCard>
             <BottomCard>
               <SelectButton to={`/thankyou?id=${card.id}&${deviceQuery}`}>
@@ -49,7 +49,7 @@ const IndexPage = () => {
     [cards, t, deviceQuery]
   )
 
-  return <Layout>{renderCards}</Layout>
+  return <Layout>{cards ? renderCards : <h1>{t("loading")}</h1>}</Layout>
 }
 export const query = graphql`
   query ($language: String!) {

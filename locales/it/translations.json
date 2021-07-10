@@ -9,5 +9,6 @@
   "birthDate-error": "Data di nascita non valida",
   "submit": "Invia",
   "next": "Avanti",
-  "confirmation": "Checkout completato con successo, verrai reindirizzato alla homepage"
+  "confirmation": "Checkout completato con successo, verrai reindirizzato alla homepage",
+  "loading": "Loading.."
 }

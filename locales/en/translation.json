@@ -9,5 +9,6 @@
   "birthDate-error": "birthDate is not valid",
   "submit": "Send",
   "next": "Next",
-  "confirmation": "Checkout succesfully completed, you will be redirected to the homepage"
+  "confirmation": "Checkout succesfully completed, you will be redirected to the homepage",
+  "loading": "Caricamento.."
 }
