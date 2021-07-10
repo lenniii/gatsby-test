@@ -1,3 +1,13 @@
 {
-  "select": "Select"
+  "select": "Select",
+  "who-are-you": "Who are you",
+  "infos": "Name and surname",
+  "infos-error": "Name and surname are not valid",
+  "email": "Email",
+  "email-error": "Email is not valid",
+  "birthDate": "Birthdate",
+  "birthDate-error": "birthDate is not valid",
+  "submit": "Send",
+  "next": "Next",
+  "confirmation": "Checkout succesfully completed, you will be redirected to the homepage"
 }

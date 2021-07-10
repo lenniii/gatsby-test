@@ -1,3 +1,13 @@
 {
-  "select": "Seleziona"
+  "select": "Seleziona",
+  "who-are-you": "Chi sei?",
+  "infos": "Nome e cognome",
+  "infos-error": "Il nome e cognome non sono validi",
+  "email": "Email",
+  "email-error": "Email non valida",
+  "birthDate": "Data di nascita",
+  "birthDate-error": "Data di nascita non valida",
+  "submit": "Invia",
+  "next": "Avanti",
+  "confirmation": "Checkout completato con successo, verrai reindirizzato alla homepage"
 }
