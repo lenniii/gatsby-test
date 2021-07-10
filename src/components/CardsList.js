@@ -7,7 +7,9 @@ const CardsList = styled.div`
   overflow-y: hidden;
   margin: 0 auto;
   padding: 1rem;
-  //TODO: remove scroll mobile
+  &::-webkit-scrollbar {
+    display: ${({ isMobile }) => isMobile && "none"};
+  }
 `
 
 export default CardsList

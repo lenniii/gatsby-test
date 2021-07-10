@@ -28,11 +28,9 @@ const IndexPage = () => {
     []
   )
 
-  console.log(cards)
-
   const renderCards = useMemo(
     () => (
-      <CardsList>
+      <CardsList isMobile={isMobile}>
         {cards?.map(card => (
           <Card key={card.id}>
             <UpperCard>
